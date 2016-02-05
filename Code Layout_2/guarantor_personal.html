@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Guarantor | Personal Information </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_mobile.css"/>
+
+    <meta charset="UTF-8">
+		<style>
+      .bg{
+        background-image: url('backgrounds/summer/storyboard_colors_3-07.png');
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 1;
+      }
+    </style>
+	
+		</head>
+		
+		<body class="bg">
+		
+   <div class='one divy'> Patient</div>     
+      </br> 
+    <div class='two divy'> Guarantor Information <span class="minus">–</span></div>	
+		 </br>
+      <div class='three divy'> Personal Information </div>	
+        </br>      
+            <table border=1 width=500 class="form_table">
+                <tr>
+                  <th><input type="text" name="fname" class="form" placeholder="First Name"/></th> 
+                  <th><input type="text" name="lname" class="form"placeholder="Last Name"/> </th>
+                  <th> <input type="text" name="bdate" class="form" placeholder="Birthdate: mm/dd/yyyy" /></th>
+                  <th> <input type="text" name="age" placeholder="Age" maxlength="3"/> </th>                
+                </tr>
+
+                <tr>
+                  <th> <input type="text" name="address" class="form" placeholder="Address"/> </th>
+                  <th>  <input type="text" name="city" class="form" placeholder="City"/></th>
+                  <th> <input type="text" name="state" class="form" placeholder="State" maxlength="2"/></th>
+                  <th> <input type="text" name="zCode" class="form" placeholder="Zip Code" maxlength="5"/></th>
+
+                </tr>
+
+                <tr>
+                   <th> <input type="text" name="address" class="form" placeholder="Country"/> </th>
+                  <th><input type="text" name="hPhone" class="form" placeholder="Home Phone" maxlength="10"/></th>
+                  <th> <input type="text" name="mStatus" class="form" placeholder="Marital Status"/></th>
+                  <th> <select class ="choose" name="Sex">
+                        <option value="select">Select Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                       </select></th>
+                </tr>
+              
+                <tr>
+                  <th> <input type="text" name="rPatient" class="form" placeholder="Relationship to Patient"/></th>
+                  <th>  </th>
+                  <th><input type="text" name="ssn" class="form" placeholder="SSN#" maxlength="9"/></th>
+                  <th> </th>
+                </tr>     
+            </table>  
+            
+
+		</body>
+		
+		</html>

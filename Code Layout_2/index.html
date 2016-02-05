@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Patient | Personal Information </title>
+    <link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8">
+    
+	
+		</head>
+		
+		<body>
+		
+   <div class='one'> Patient</div>     
+      </br> 
+    <div class='two'> Patient Information<span class="minus">–</span></div>	
+		 </br>
+      <div class='three'> Personal Information </div>	
+        </br>      
+            <table border=1 width=500>
+                <tr>
+                  <th><input type="text" name="fname" placeholder="First Name"/> </th> 
+                  <th><input type="text" name="lname" placeholder="Last Name"/></th>
+                  <th><input type="text" name="bdate" placeholder="Birthdate: mm/dd/yyyy" /></th>
+                  <th><input type="text" name="age" placeholder="Age" maxlength="3"/></th>                
+                </tr>
+
+                <tr>
+                  <th> <input type="text" name="address" placeholder="Address"/> </th>
+                  <th>  <input type="text" name="city" placeholder="City"/></th>
+                  <th> <input type="text" name="state" placeholder="State" maxlength="2"/></th>
+                  <th> <input type="text" name="zCode" placeholder="Zip Code" maxlength="5"/></th>
+
+                </tr>
+
+                <tr>
+                  <th><select name="Race">
+                        <option value="select">Race</option>
+                        <option value="black">Black or African American</option>
+                        <option value="white">Caucasian American or White</option>
+                        <option value="latino">Hispanic/Latino</option>
+                        <option value="a_in">American Indian or Alaskan Native</option>
+                        <option value="asian">Asian</option>
+                        <option value="retired">Native Hawaiian or Pacific Islander</option>
+                        <option value="retired">Multiracial</option>
+                       </select></th>
+                  <th> Ethnicity</th>
+                  <th><input type="text" name="mStatus" placeholder="Marital Status"/></th>
+                  <th><select name="Sex">
+                        <option value="select">Select Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                       </select></th>
+                </tr>
+                            
+                <tr>
+                  <th><input type="text" name="hPhone" placeholder="Home Phone" maxlength="10"/></th>
+                  <th><input type="text" name="cPhone" placeholder="Cell Phone" maxlength="10"/></th>
+                  <th><input type="text" name="ssn" placeholder="SSN#" maxlength="9"/></th>
+                  <th> Religion</th>
+                </tr>     
+            </table>  
+            
+
+		</body>
+		
+		</html>
